@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.072701">
+<testcase classname="Validate the facebook application" name="Validate the facebook using invalid username and invalid password" time="53.072701">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.login.StepDefinationClass.user_validates_the_unsuccessful_login(StepDefinationClass.java:50)&#13;&#10;&#9;at ✽.User validates the unsuccessful login(C:/Users/Its We/eclipse-workspace/Cucumber/src/test/resources/Facebook.feature:7)&#13;&#10;"><![CDATA[Given User must be able to launch and navigate to the facebook url..........passed
+When User must enter the username and password..............................passed
+And User clicks on the login button.........................................passed
+Then User validates the unsuccessful login..................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.login.StepDefinationClass.user_validates_the_unsuccessful_login(StepDefinationClass.java:50)
+	at ✽.User validates the unsuccessful login(C:/Users/Its We/eclipse-workspace/Cucumber/src/test/resources/Facebook.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
